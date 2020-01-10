@@ -3,7 +3,7 @@
 
 Name:           %{fontname}-fonts
 Version:        1.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Free Kannada Opentype serif font
 
 Group:          User Interface/X
@@ -47,6 +47,9 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
